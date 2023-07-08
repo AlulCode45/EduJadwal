@@ -20,6 +20,11 @@ EduJadwal API adalah bagian dari aplikasi jadwal pelajaran sekolah yang berfungs
 5. Konfigurasikan pengaturan database pada file `.env`.
 6. Jalankan perintah `npm start` untuk menjalankan server API.
 
+## Authors
+
+- [@AlulCode](https://www.github.com/AlulCode45)
+
+
 ## 🤝 Kontribusi
 
 Kontribusi dalam pengembangan EduJadwal API sangat diterima. Jika Anda menemukan masalah (bug) atau ingin memberikan perbaikan atau fitur baru, silakan buat *issue* atau *pull request* melalui GitHub repository ini.

@@ -29,5 +29,3 @@ Kontribusi dalam pengembangan EduJadwal API sangat diterima. Jika Anda menemukan
 Proyek ini dilisensikan di bawah lisensi [MIT](https://opensource.org/licenses/MIT).
 
 ---
-
-Dengan README yang jelas dan informatif seperti ini, pengguna atau kontributor potensial akan mendapatkan pemahaman yang baik tentang fitur dan penggunaan EduJadwal API serta cara berkontribusi pada proyek tersebut.

@@ -1,0 +1,9 @@
+{
+  "name": "edujadwal",
+  "version": "1.0.0",
+  "description": "EduJadwal adalah sebuah aplikasi inovatif yang dirancang untuk membantu siswa dan guru dalam mengelola jadwal pelajaran sekolah secara efisien. Dengan antarmuka yang user-friendly dan fitur yang lengkap, EduJadwal memudahkan pengguna untuk melihat, mengatur, dan mengingat jadwal pelajaran dengan mudah. Dapatkan pengalaman belajar yang lebih teratur dan terorganisir dengan EduJadwal!",
+  "main": "index.js",
+  "author": "AlulCode",
+  "license": "MIT",
+  "repository": ""
+}

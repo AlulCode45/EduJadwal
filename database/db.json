@@ -1,0 +1,40 @@
+{
+    "courses": [
+        {
+            "id": 1,
+            "name": "Matematika",
+            "schedule": [
+                {
+                    "day": "Senin",
+                    "time": "10:00 - 11:30"
+                },
+                {
+                    "day": "Rabu",
+                    "time": "13:00 - 14:30"
+                },
+                {
+                    "day": "Jumat",
+                    "time": "09:00 - 10:30"
+                }
+            ],
+            "teacher": "Bapak Agus",
+            "room": "A101"
+        },
+        {
+            "id": 2,
+            "name": "Bahasa Inggris",
+            "schedule": [
+                {
+                    "day": "Selasa",
+                    "time": "08:00 - 09:30"
+                },
+                {
+                    "day": "Kamis",
+                    "time": "10:00 - 11:30"
+                }
+            ],
+            "teacher": "Ibu Siti",
+            "room": "B202"
+        }
+    ]
+}

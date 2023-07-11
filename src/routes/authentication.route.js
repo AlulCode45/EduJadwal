@@ -1,5 +1,5 @@
 const express = require('express')
-const { authLogin, authRegister, authRefreshToken, authLogout, authGetProfile } = require('../controller/authentication')
+const { authLogin, authRegister, authRefreshToken, authLogout, authGetProfile } = require('../controller/authentication.controller')
 const authRoute = express.Router()
 
 authRoute.post('/login', authLogin)

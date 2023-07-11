@@ -1,10 +1,12 @@
 const express = require('express')
-const connectDb = require('./config/db')
+const connectDb = require('./config/db.config')
 const app = express()
 
 //router
-const authRouter = require('./routes/authentication')
+const authRouter = require('./routes/authentication.route')
 const bodyParser = require('body-parser')
+const { checkAuthentication } = require('./middleware/authentication.middleware')
+const classRoute = require('./routes/class.route')
 
 app.use(express.static('database'))
 
@@ -22,6 +24,10 @@ app.get('/', (req, res) => {
 
 // Authentication
 app.use('/auth', authRouter)
+
+// Class manage
+app.use(checkAuthentication)
+app.use('/class', classRoute)
 
 
 app.listen(4000, (err) => {

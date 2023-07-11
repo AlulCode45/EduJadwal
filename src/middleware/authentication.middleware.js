@@ -1,4 +1,4 @@
-const { connectDb } = require("../config/db")
+const { connectDb } = require("../config/db.config")
 
 const checkAuthentication = async (req, res, next) => {
     const token = req?.headers?.authorization?.split(' ')[1]
